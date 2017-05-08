@@ -4,7 +4,11 @@
   "description": "Node.js wrapper to the netcat util with fallbacks.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roccomuso/nc-wrapper.git"
   },
   "keywords": [
     "netcat",
@@ -16,6 +20,10 @@
     "bin"
   ],
   "author": "Rocco Musolino",
+  "bugs": {
+    "url": "https://github.com/roccomuso/nc-wrapper/issues"
+  },
+  "homepage": "https://github.com/roccomuso/nc-wrapper#readme",
   "license": "ISC",
   "dependencies": {
     "execa": "^0.6.3"
