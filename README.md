@@ -10,12 +10,17 @@ See also the full node.js implementation of [netcat](https://github.com/roccomus
 
     $ npm i -g nc-wrapper
 
-## Usage
+## Usage `ncw`
 
 | Server side         | Client side                        |
 |---------------------|------------------------------------|
 | `ncw -l -p 2389` | `ncw localhost 2389` |
 
+By default on Linux and Windows will use the embedded binaries and the global installed ones only on exception raised.
+
+On MacOS will try to use only the global `nc` if available.
+
+**Known issue**. The process exit is handled as exception so it will enter into the `catch` block and spawn the fallback. I'm still looking for an elegant way to handle this.
 
 ## Author
 
