@@ -22,7 +22,14 @@ On MacOS will try to use only the global `nc` if available.
 
 **Known issue**. The process exit is handled as exception so it will enter into the `catch` block and spawn the fallback. I'm still looking for an elegant way to handle this.
 
+### Other example
+
+Easily transfer a file:
+
+| Server side         | Client side                        |
+|---------------------|------------------------------------|
+| `ncw -l 2389 > test` | <code>cat testfile &#124; ncw localhost 2389</code> |
+
 ## Author
 
 Rocco Musolino ([@roccomuso](https://twitter.com/roccomuso))
-
