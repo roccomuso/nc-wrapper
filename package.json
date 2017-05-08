@@ -1,8 +1,12 @@
 {
   "name": "nc-wrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node.js wrapper to the netcat util with fallbacks.",
   "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "ncw": "./index.js"
+  },
   "scripts": {
     "test": ""
   },
