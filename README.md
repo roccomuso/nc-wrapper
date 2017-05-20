@@ -6,6 +6,12 @@ Cross-platform. Supports: macOS, Windows, Linux, OpenBSD, FreeBSD.
 
 See also the full node.js implementation of [netcat](https://github.com/roccomuso/nc).
 
+| OS    |  Supported |
+|-------|--------------------|
+| Linux | :white_check_mark: |
+| Mac OS | :white_check_mark: |
+| Windows | :white_check_mark: |
+
 ## Install
 
     $ npm i -g nc-wrapper
